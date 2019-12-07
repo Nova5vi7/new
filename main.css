@@ -1,25 +1,30 @@
-.container {
-  width: auto;
-  margin: 7px;
-  padding: 10px;
-  border: 4px solid black;
-  background: #fc0;
-  /* Я тут, правда, на счёт центрирования не уверен*/
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em;
+body {
+  padding: 0;
+  margin: 0;
 }
+
+.container {
+  height: 400px;
+  width: 100%;
+  border: 4px double black;
+  background: rgb(43, 183, 226);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .block1 {
-  width: auto;
-  margin: 7px;
-  padding: 10px;
-  border: 4px solid black;
-  background: #325;
+  height: auto;
+  width: 70px;
+  border: 4px double black;
+  background: #6e7a43;
 }
 .block2 {
-  width: auto;
-  margin: 7px;
-  padding: 10px;
-  border: 4px solid black;
-  background: #654;
+  height: auto;
+  width: 105px;
+  border: 4px double black;
+  background: #b67c45;
 }
