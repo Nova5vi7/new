@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-  height: 400px;
-  width: 100%;
+  height: 660px;
+  width: 50%;
+  margin: 0 auto;
   border: 4px double black;
   background: rgb(43, 183, 226);
 }
