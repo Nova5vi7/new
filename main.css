@@ -1,31 +1,52 @@
+html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+}
+
+.section-one,
+.section-two {
+  height: 800px;
 }
 
 .container {
-  height: 660px;
-  width: 50%;
+  height: 100%;
+  width: 1200px;
   margin: 0 auto;
-  border: 4px double black;
-  background: rgb(43, 183, 226);
-}
-.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
 }
-
-.block1 {
-  height: auto;
-  width: 70px;
-  border: 4px double black;
-  background: #6e7a43;
+.content-reverse {
+  flex-direction: row-reverse;
 }
-.block2 {
-  height: auto;
-  width: 105px;
-  border: 4px double black;
-  background: #b67c45;
+
+.block-left {
+  width: 400px;
+}
+.block-right {
+  width: 800px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  background: #fff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  border: 1px solid #eee;
+}
+.section-one .card {
+  background: #eee;
+}
+.section-two .card {
+  border-radius: 20px;
+}
+.section-two {
+  background: #eee;
 }
